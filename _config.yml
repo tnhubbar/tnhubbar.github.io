@@ -1,11 +1,11 @@
 # Site settings
 author: Taryn Johnson
-title: 
+title: The Voyage to a New Understanding
 header-img: img/home-bg.png
 email: taryn.johnson919@gmail.com
 copyright_name: Taryn Johnson
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Why I made this choice. 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  tnhubbar
