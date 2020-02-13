@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Wine Pairing CLI Project"
-date:       2020-02-13 00:48:21 +0000
+date:       2020-02-12 19:48:22 -0500
 permalink:  my_wine_pairing_cli_project
 ---
 
