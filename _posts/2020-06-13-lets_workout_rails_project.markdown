@@ -1,0 +1,14 @@
+---
+layout: post
+title:      "Let's Workout!! Rails Project"
+date:       2020-06-13 16:19:21 +0000
+permalink:  lets_workout_rails_project
+---
+
+
+This Rails Project has been my favorite and also the most challenging project thus far. With the CLI project, I felt lost. With the Sinatra project, I felt more informed, but still not confident; but with the Rails project I really felt like I had the tools in my shed to really have a good time and experiment. Though I prefer the less abstract way of doing things, Rails really provided a lot of helpful methods and generators to cut back on repetition and speed things up. Route helpers and rails generators were life savers! Writing ``` new_routine_exercises_path``` was a lot easier to write than ``` '/routines/1/exercises/new' ```. And putting that in conjunction with the resource generator really helped me get my project off the ground quickly. This generator created the database, the model, a controller, and a view directory, and I did not have to do it manually. This really saved me from making spelling or other small errors that would throw things off. 
+It was nice to revisit associations with rails and use the methods it provided. In my project, a user can create their own workout routines, and add specific exercises that belong to that routine, and then come back in and view their exercise routines. I was so caught up in working on the authentication portion of my project at one point that I completely forgot about the methods that the associations provided for us. I was trying to display to a user all of their exercises from all of their combined routines and instead of just writing ``` @exercises = current_user.exercises ```, I ended up spending an hour trying to figure out to display it. I came up with ``` @exercises = current_user.routines.map {|r| r.exercises }.flatten ```. I felt rather foolish for forgetting the methods provided and laughed at myself for quite some time, but then realized I actually enjoyed the process of tinkering around and experimenting with different methods to achieve the product that I wanted. 
+ 
+What I struggled with the most was carrying the objects around between nested forms and controllers and including the hidden input in the form needed. This was important because there were times when I needed the form to submit an id, but I didn't want this visible to the user. Even though quite challenging, this was my favorite project yet because I was able to play around more and felt a little more confident in my abilities. I also really ramped up my troubleshooting and using my external resources to help me out upon hitting obstacles. I feel this is one of the most important skills as a developer and I was happy to get to exercise that muscle. I do plan to still build on my project and give it a few more capabilities, but overall I’m very satisfied with everything I’ve learned thus far and look forward to moving on to Javascript. 
+
+
